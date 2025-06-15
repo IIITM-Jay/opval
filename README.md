@@ -30,6 +30,8 @@ Current RISC-V tools such as [riscv-opcodes](https://github.com/riscv/riscv-opco
 
 ## Project Roadmap
 
+### Project status and details for Phase0 - [Research & Exploartion](https://github.com/users/IIITM-Jay/projects/1/views/1?pane=info)
+
 | Phase | Focus Area                            | Key Deliverables                                                                 |
 |-------|----------------------------------------|----------------------------------------------------------------------------------|
 | Phase 0: Exploration & Research | Landscape review & gap analysis        | Study existing tools (e.g., riscv-opcodes, spike, Sail), identify missing validation layers, define test cases |
