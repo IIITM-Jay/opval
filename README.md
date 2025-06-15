@@ -28,6 +28,19 @@ Current RISC-V tools such as [riscv-opcodes](https://github.com/riscv/riscv-opco
 - Enabling detection of design-time encoding conflicts
 - Supporting continuous integration for ISA development workflows
 
+## Project Roadmap
+
+| Phase | Focus Area                            | Key Deliverables                                                                 |
+|-------|----------------------------------------|----------------------------------------------------------------------------------|
+| Phase 0: Exploration & Research | Landscape review & gap analysis        | Study existing tools (e.g., riscv-opcodes, spike, Sail), identify missing validation layers, define test cases |
+| Phase 1: Foundations         | Project setup & metadata parser           | Initialize repository, parse RISC-V YAML opcode metadata, set up base infrastructure |
+| Phase 2: Core Validation     | Encoding validation engine                | Implement bitfield overlap detection, field width checks, value representability, basic structural errors |
+| Phase 3: Argument Checks     | Argument-table and semantics checks       | Validate mapping correctness, missing argument keys, malformed entries |
+| Phase 4: Trace Analysis      | Trace format support & analysis tools     | Design trace log parser, compare trace semantics with defined encodings |
+| Phase 5: CI Integration      | GitHub Actions & CLI utility              | Add command-line interface, GitHub Action integration, improve UX and error messaging |
+| Phase 6: Public Release      | Documentation, examples & outreach        | Provide documentation, usage examples, package v1.0 release, outreach for adoption |
+
+
 ## Use Cases
 
 1. Validate opcode additions to `riscv-opcodes` or other YAML-based metadata repos
