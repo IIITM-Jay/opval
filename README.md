@@ -1,5 +1,5 @@
 # OpVal: A Metadata-Based Validation Framework for RISC-V Opcodes and Traces
-_...An upcoming open tool to validate, trace, and debug RISC-V opcode specifications with CI support._
+_...An upcoming open tool for validating, tracing, and debugging RISC-V opcode specifications with CI support. The project is currently in its initial phase of research and exploration, focusing on understanding existing tools and frameworks, studying historical efforts, and identifying gaps to address._
 
 ## Overview
 
