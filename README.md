@@ -16,6 +16,7 @@ This project builds on significant prior work and contributions that I have made
 - Optimized the Makefile for streamlined execution and testing.
 - Reviewed, fixed, and merged PRs from the wider community.
 - Provided best-practice recommendations for structure and maintainability.
+- Resolved a multi-extension dependency bug by relocating `hinval.vvma` and `hinval.gvma` to `rv_svinval_h`, ensuring instruction legality when both Svinval and H extensions are used. Also fixed a related parser error affecting output generation.
 
 **📌 Notable Pull Requests & Commits:**
 
@@ -27,6 +28,7 @@ This project builds on significant prior work and contributions that I have made
 - [Build & Parser Adjustments](https://github.com/riscv/riscv-opcodes/pull/311)
 - [Issue Fixes & Robustness Improvements](https://github.com/riscv/riscv-opcodes/pull/299)
 - [All Commits](https://github.com/riscv/riscv-opcodes/commits?author=IIITM-Jay)
+- [PR #297: Split `hinval.vvma` and `hinval.gvma` from `rv_svinval` to `rv_svinval_h`](https://github.com/riscv/riscv-opcodes/pull/297)
 
 These contributions reflect a deep engagement with the RISC-V ecosystem and directly inform the design of `OpVal`.
 
