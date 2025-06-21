@@ -1,6 +1,37 @@
 # OpVal: A Metadata-Based Validation Framework for RISC-V Opcodes and Traces
 _...An upcoming open tool for validating, tracing, and debugging RISC-V opcode specifications with CI support. The project is currently in its initial phase of research and exploration, focusing on understanding existing tools and frameworks, studying historical efforts, and identifying gaps to address._
 
+---
+
+### 🧱 Foundational Work & Upstream Contributions
+
+This project builds on significant prior work and contributions that I have made to the [riscv-opcodes](https://github.com/riscv/riscv-opcodes) repository, which forms the foundational groundwork for `OpVal`.
+
+**🔧 Contributions include:**
+
+- Refactored and optimized parser logic for opcode ingestion.
+- Introduced shared utilities and YAML artifact-generation scripts.
+- Enhanced the CI/CD pipeline for faster, more reliable builds.
+- Reduced lines of code (LOC) to improve readability and maintainability.
+- Optimized the Makefile for streamlined execution and testing.
+- Reviewed, fixed, and merged PRs from the wider community.
+- Provided best-practice recommendations for structure and maintainability.
+
+**📌 Notable Pull Requests & Commits:**
+
+- [Parser Refactor & Logic Simplification](https://github.com/riscv/riscv-opcodes/pull/283#pullrequestreview-2361430186)
+- [CI Speed-Up & YAML Loader Enhancements](https://github.com/riscv/riscv-opcodes/pull/318)
+- [Makefile Optimizations](https://github.com/riscv/riscv-opcodes/pull/266)
+- [YAML Cleanup & Validation Fixes](https://github.com/riscv/riscv-opcodes/pull/309)
+- [Test Infrastructure & Coverage](https://github.com/riscv/riscv-opcodes/pull/292)
+- [Build & Parser Adjustments](https://github.com/riscv/riscv-opcodes/pull/311)
+- [Issue Fixes & Robustness Improvements](https://github.com/riscv/riscv-opcodes/pull/299)
+- [All Commits](https://github.com/riscv/riscv-opcodes/commits?author=IIITM-Jay)
+
+These contributions reflect a deep engagement with the RISC-V ecosystem and directly inform the design of `OpVal`.
+
+---
+
 ## Overview
 
 As RISC-V adoption increases globally—especially within European initiatives like EPI, CHIPS JU, and RISE—ensuring correctness and trust in custom opcodes, ISA extensions, and trace encodings is critical. OpVal addresses the lack of early validation tooling in the open-source chip toolchain by providing:
